@@ -1,4 +1,4 @@
-import { CreditCard, Plane, Smartphone, Tv, TrendingUp } from "lucide-react";
+import { CreditCard, Plane, Smartphone, Tv, TrendingUp, HandHeart } from "lucide-react";
 import ServiceCard from "./ServiceCard";
 
 export default function Services() {
@@ -37,9 +37,9 @@ export default function Services() {
             description="Book flights, buses, and hotels at the best prices."
           />
           <ServiceCard
-            Icon={TrendingUp}
-            title="Investments"
-            description="Track and invest in stocks, mutual funds, and digital gold securely — all from one app."
+            Icon={HandHeart}
+            title="Insurance"
+            description="You can buy bike, car, health, life insurance."
           />
         </div>
       </div>

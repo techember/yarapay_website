@@ -17,7 +17,7 @@ export default function ServiceCard({ Icon, title, description }) {
       whileHover={{ y: -5 }}
     >
       {/* Icon Bubble */}
-      <div className="w-12 h-12 mb-4 bg-gradient-to-br from-[#471d7d] to-[#7c3aed] rounded-full flex items-center justify-center shadow-md">
+      <div className="w-12 h-12 mb-4 bg-gradient-to-br from-[#471d7d] to-[#7c3aed] rounded-full flex items-center justify-center mx-auto shadow-md">
         <Icon className="w-6 h-6 text-white" />
       </div>
 
