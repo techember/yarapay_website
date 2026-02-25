@@ -49,6 +49,16 @@ export default function Footer() {
                   Refund Policy
                 </Link>
               </li>
+              <li>
+                <a
+                  href="/GST_CERTIFICATE.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#7c3aed] transition"
+                >
+                  GST Details
+                </a>
+              </li>
             </ul>
           </div>
 
